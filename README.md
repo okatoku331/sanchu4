@@ -2,16 +2,13 @@
 
 天運三柱推命ver.4
 
-## Getting Started
+生年月日を入力すると、天運が訪れる年を算出するアプリです。
+Flutterを用いて作成しています。
+Android　および　web 上で動作します。
 
-This project is a starting point for a Flutter application.
+すでにGooglePlayStoreにて、リリースされている「三柱推命ver.3」を
+web上でも動作するようにしていきます。
+また、機能を追加しやすいように、プログラムの構造も更新していきます。
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 # sanchu4
