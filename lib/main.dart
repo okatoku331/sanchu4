@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sanchu4/osirase/update.dart';
 
 void main() {
   runApp(const MyApp());
@@ -54,6 +55,11 @@ class _MyHomePageState extends State<MyHomePage> {
             tooltip: 'Next page',
             onPressed: () {
               //ToDo アップデート情報ページに飛ぶ
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const Update(),
+                  ));
             },
           ),
         ],
@@ -135,7 +141,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               width: 174,
                               child: TextButton(
                                 child: const Text(
-                                  'yyyy/mm/dd',
+                                  'XXXXX/mm/dd',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 18,
