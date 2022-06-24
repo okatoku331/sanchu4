@@ -1,14 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sanchu4/nikkan/nikkan_hinoe.dart';
-import 'package:sanchu4/nikkan/nikkan_hinoto.dart';
-import 'package:sanchu4/nikkan/nikkan_kanoe.dart';
-import 'package:sanchu4/nikkan/nikkan_kanoto.dart';
-import 'package:sanchu4/nikkan/nikkan_kinoe.dart';
-import 'package:sanchu4/nikkan/nikkan_kinoto.dart';
-import 'package:sanchu4/nikkan/nikkan_mizunoe.dart';
-import 'package:sanchu4/nikkan/nikkan_mizunoto.dart';
-import 'package:sanchu4/nikkan/nikkan_tutinoe.dart';
-import 'package:sanchu4/nikkan/nikkan_tutinoto.dart';
 import 'package:sanchu4/osirase/update.dart';
 
 void main() {
@@ -68,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const NikkanTutinoto(),
+                    builder: (context) => const Update(),
                   ));
             },
           ),
