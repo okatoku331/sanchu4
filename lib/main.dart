@@ -1,7 +1,12 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:sanchu4/osirase/update.dart';
 
-void main() {
+void main() async {
+  //google_mobile_adsを配置するため追加 2021.5.24
+  WidgetsFlutterBinding.ensureInitialized();
+  // FireBase core 0.5.0 以降ここで初期化することが必要
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 

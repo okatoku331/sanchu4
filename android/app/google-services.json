@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "172550768228",
+    "project_id": "sanchu4-32157",
+    "storage_bucket": "sanchu4-32157.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172550768228:android:261b771f7d1dc4dbd48171",
+        "android_client_info": {
+          "package_name": "com.example.sanchu4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172550768228-fi20h2cvk9ggvuj4ki7h2h5fngu32c68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFUdGTsACeP8hMJKx6GjIh5JaTj4n1NLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172550768228-fi20h2cvk9ggvuj4ki7h2h5fngu32c68.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "172550768228-tl9stapccnnlhmtjmodl8bho80cuo844.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.chan.sanchu4"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

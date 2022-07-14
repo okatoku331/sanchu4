@@ -3,6 +3,7 @@ import 'package:sanchu4/osirase/profile.dart';
 import 'package:sanchu4/osirase/update1.dart';
 import 'package:sanchu4/osirase/update2.dart';
 import 'package:sanchu4/osirase/update2a.dart';
+import 'package:sanchu4/osirase/update3.dart';
 import 'package:sanchu4/osirase/update3a.dart';
 
 class Update extends StatelessWidget {
@@ -53,7 +54,7 @@ class Update extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const Update3a(),
+                            builder: (context) => Update3(),
                           ));
                     },
                   ),
